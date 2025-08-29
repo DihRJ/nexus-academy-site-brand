@@ -2,7 +2,7 @@
 
 import { useState } from "react"ex;
 
-export default function ContactPage() {
+export default function ContactPe() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
