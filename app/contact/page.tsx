@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from "react"e
+import { useState } from 'react';
 
-export default function ContactPe() {
+export default function ContactPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -35,9 +35,7 @@ export default function ContactPe() {
           required
           style={{ padding: '0.5rem', marginBottom: '0.75rem', borderRadius: '4px' }}
         />
-        
         <textarea
-          
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Mensagem"
