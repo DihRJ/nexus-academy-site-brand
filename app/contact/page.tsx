@@ -36,6 +36,7 @@ export default function ContactPage() {
           style={{ padding: '0.5rem', marginBottom: '0.75rem', borderRadius: '4px' }}
         />
         <textarea
+          
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Mensagem"
