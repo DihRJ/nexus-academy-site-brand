@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from "react"ex;
+import { useState } from "react"e
 
 export default function ContactPe() {
   const [name, setName] = useState('');
