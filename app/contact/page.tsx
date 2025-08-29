@@ -1,11 +1,6 @@
 'use client';
 
-import { useState } from "react";
-
-export const metadata = {
-  title: "Contato | Nexus Academy",
-  description: "Entre em contato conosco para solicitar informações sobre nossos serviços, treinamentos ou soluções SaaS.",
-};
+import { useState } from "react"ex;
 
 export default function ContactPage() {
   const [name, setName] = useState('');
